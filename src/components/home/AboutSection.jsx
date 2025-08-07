@@ -162,7 +162,7 @@ const AboutSection = () => {
         </div>
 
         {/* CTA */}
-        <div className="text-center">
+        {/* <div className="text-center">
           <div className="inline-flex flex-col sm:flex-row items-center gap-4">
             <a
               href="#services"
@@ -172,7 +172,7 @@ const AboutSection = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* Keyframes */}
