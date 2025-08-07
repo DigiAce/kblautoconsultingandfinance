@@ -21,7 +21,7 @@ function App() {
       Routes)
       <div className="fixed bottom-6 right-6 z-50">
         <a
-          href="https://wa.me/9710228721" // Replace with your WhatsApp number
+          href="https://wa.link/27fkl0" // Replace with your WhatsApp number
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 flex items-center justify-center"

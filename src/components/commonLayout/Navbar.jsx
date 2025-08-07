@@ -179,7 +179,8 @@ const Navbar = () => {
             <div className="flex items-center space-x-4">
               {/* CTA Button */}
               <Link
-                to="/contact"
+                to="https://wa.link/27fkl0"
+                target="_blank"
                 className="hidden md:inline-flex items-center space-x-2 bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-6 py-2.5 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl hover:scale-105"
               >
                 <span>Get Started</span>
@@ -297,7 +298,8 @@ const Navbar = () => {
             {/* Mobile CTA */}
             <div className="mt-8 pt-6 border-t border-blue-700">
               <Link
-                to="/contact"
+                to="https://wa.link/27fkl0"
+                target="_blank"
                 onClick={() => setIsOpen(false)}
                 className="flex items-center justify-center w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white px-6 py-3 rounded-lg font-semibold transition-all duration-300 shadow-lg hover:shadow-xl"
               >

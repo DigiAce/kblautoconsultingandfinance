@@ -121,7 +121,7 @@ const ContactForm = () => {
                     <p className="text-blue-200">
                       Email: kblautoconsulting2702@gmail.com
                     </p>
-                    <p className="text-blue-200">Phone: +91 97102 28721</p>
+                    <p className="text-blue-200">Phone: +91 87783 82253</p>
                   </div>
 
                   <div>
