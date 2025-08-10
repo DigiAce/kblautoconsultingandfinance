@@ -16,7 +16,7 @@ const Footer = () => {
           {/* Logo/Name section */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <img src="/img/logo-bg-1.png" alt="" className="w-28 h-28" />
+              <img src="/img/kbl-logo.png" alt="" className="w-28 h-28" />
             </div>
             <p className="text-gray-300 mb-6">
               Your trusted partner for financial solutions and consulting
@@ -215,9 +215,23 @@ const Footer = () => {
         {/* Bottom section */}
         <div className="mt-16 pt-8 border-t border-slate-700 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; <span id="year"></span> KBL Consulting & Finance. All rights
-            reserved.
-            <span className="block md:inline"> Powered by DigiAce</span>
+            &copy; <span id="year"></span>
+            <b className="text-blue-400 font-bold">
+              {" "}
+              KBL Consulting & Finance{" "}
+            </b>
+            . All rights reserved.
+            <span className="block md:inline">
+              {" "}
+              Powered by
+              <a
+                href="https://www.digiace.in/"
+                className="text-blue-400 font-bold"
+              >
+                {" "}
+                DigiAce
+              </a>
+            </span>
           </p>
 
           <div className="flex space-x-6">

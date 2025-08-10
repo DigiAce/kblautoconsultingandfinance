@@ -114,9 +114,9 @@ const Navbar = () => {
               <Link to="/" className="group flex items-center space-x-3">
                 <div className="relative">
                   <img
-                    src="/img/logo-bg-1.png"
+                    src="/img/kbl-logo.png"
                     alt="KBL Finance Logo"
-                    className="w-12 h-12 lg:w-14 lg:h-14 object-contain"
+                    className="w-24 h-24 object-contain"
                   />
                 </div>
               </Link>
@@ -220,9 +220,9 @@ const Navbar = () => {
           <div className="flex items-center justify-between p-6 border-b border-blue-700 bg-blue-800">
             <div className="flex items-center space-x-3">
               <img
-                src="/img/logo-bg-1.png"
+                src="/img/kbl-logo.png"
                 alt="KBL Finance Logo"
-                className="w-10 h-10 object-contain"
+                className="w-24 h-24 object-contain"
               />
               <div>
                 <h2 className="text-white font-bold text-lg">KBL Finance</h2>
@@ -313,7 +313,7 @@ const Navbar = () => {
               <div className="space-y-2 text-sm text-blue-100">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>+91 97102 28721</span>
+                  <span>+91 87783 82253</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />

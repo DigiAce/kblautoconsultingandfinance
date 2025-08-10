@@ -12,16 +12,16 @@ const HeroSection = () => {
     },
     {
       amount: "₹2,00,000",
-      duration: "25 Months",
+      duration: "20 Months",
       members: "25",
-      monthlyContribution: "₹8,000",
+      monthlyContribution: "₹10,000",
       color: "from-purple-500 to-purple-600",
     },
     {
       amount: "₹5,00,000",
-      duration: "50 Months",
-      members: "50",
-      monthlyContribution: "₹10,000",
+      duration: "20 Months",
+      members: "20",
+      monthlyContribution: "₹25,000",
       color: "from-blue-500 to-blue-600",
     },
   ];
