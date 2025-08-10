@@ -13,7 +13,7 @@ const HeroSection = () => {
     {
       amount: "₹2,00,000",
       duration: "20 Months",
-      members: "25",
+      members: "20",
       monthlyContribution: "₹10,000",
       color: "from-purple-500 to-purple-600",
     },
