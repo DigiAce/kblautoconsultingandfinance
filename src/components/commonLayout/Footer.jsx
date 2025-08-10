@@ -16,7 +16,11 @@ const Footer = () => {
           {/* Logo/Name section */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <img src="/img/kbl-logo.png" alt="" className="w-28 h-28" />
+              <img
+                src="/img/kbl-logo.png"
+                alt=""
+                className="w-28 h-20 object-contain"
+              />
             </div>
             <p className="text-gray-300 mb-6">
               Your trusted partner for financial solutions and consulting
