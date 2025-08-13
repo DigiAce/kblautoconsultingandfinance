@@ -16,14 +16,14 @@ import {
 const AboutSection = () => {
   const stats = [
     {
-      value: 10,
+      value: 15,
       label: "Years Experience",
       icon: Award,
       suffix: "+",
       color: "from-blue-500 to-blue-600",
     },
     {
-      value: 1600,
+      value: 2000,
       label: "Happy Clients",
       icon: Users,
       suffix: "+",

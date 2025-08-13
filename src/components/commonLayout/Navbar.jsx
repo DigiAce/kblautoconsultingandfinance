@@ -114,7 +114,7 @@ const Navbar = () => {
               <Link to="/" className="group flex items-center space-x-3">
                 <div className="relative">
                   <img
-                    src="/img/kbl-logo.png"
+                    src="/img/logo-main.png"
                     alt="KBL Finance Logo"
                     className="w-24 h-24 object-contain"
                   />
@@ -220,7 +220,7 @@ const Navbar = () => {
           <div className="flex items-center justify-between p-6 border-b border-blue-700 bg-blue-800">
             <div className="flex items-center space-x-3">
               <img
-                src="/img/kbl-logo.png"
+                src="/img/logo-main.png"
                 alt="KBL Finance Logo"
                 className="w-24 h-24 object-contain"
               />
