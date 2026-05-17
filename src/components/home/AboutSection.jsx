@@ -16,21 +16,21 @@ import {
 const AboutSection = () => {
   const stats = [
     {
-      value: 15,
+      value: 17,
       label: "Years Experience",
       icon: Award,
       suffix: "+",
       color: "from-blue-500 to-blue-600",
     },
     {
-      value: 2000,
+      value: 3500,
       label: "Happy Clients",
       icon: Users,
       suffix: "+",
       color: "from-green-500 to-green-600",
     },
     {
-      value: 5,
+      value: 7,
       label: "Services",
       icon: Briefcase,
       suffix: "",
