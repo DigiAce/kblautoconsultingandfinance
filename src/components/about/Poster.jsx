@@ -11,7 +11,7 @@ const defaultPosters = [
   { src: "/mnt/data/6.jpeg", alt: "Poster 6" },
 ];
 
-export default function PosterGallery({ posters = defaultPosters }) {
+export default function Poster({ posters = defaultPosters }) {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const activePoster = useMemo(() => {
