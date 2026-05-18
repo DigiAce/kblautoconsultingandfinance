@@ -77,6 +77,7 @@ function App() {
           {/* Chit Funds */}
           {/* <Route path="servicespage/ChitFunds" element={<ChitFunds />} /> */}
 
+          <Route path="posterpage" element={<Posterpage />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
