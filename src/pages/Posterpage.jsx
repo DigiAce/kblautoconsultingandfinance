@@ -1,6 +1,6 @@
 import CompanyValues from "../components/about/Poster.jsx";
 
-const About = () => {
+const Posterpage = () => {
   return (
     <div>
       <Poster/>
@@ -8,4 +8,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default Posterpage;
