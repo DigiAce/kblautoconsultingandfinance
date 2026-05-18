@@ -1,4 +1,4 @@
-import CompanyValues from "../components/about/Poster.jsx";
+import Poster from "../components/about/Poster.jsx";
 
 const Posterpage = () => {
   return (
