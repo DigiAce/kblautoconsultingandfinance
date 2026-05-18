@@ -3,12 +3,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, ZoomIn } from "lucide-react";
 
 const defaultPosters = [
-  { src: "/mnt/data/1.jpeg", alt: "Poster 1" },
-  { src: "/mnt/data/2.jpeg", alt: "Poster 2" },
-  { src: "/mnt/data/3.jpeg", alt: "Poster 3" },
-  { src: "/mnt/data/4.jpeg", alt: "Poster 4" },
-  { src: "/mnt/data/5.jpeg", alt: "Poster 5" },
-  { src: "/mnt/data/6.jpeg", alt: "Poster 6" },
+  { src: "/img/1.jpeg", alt: "Poster 1" },
+  { src: "/img/2.jpeg", alt: "Poster 2" },
+  { src: "/img/3.jpeg", alt: "Poster 3" },
+  { src: "/img/4.jpeg", alt: "Poster 4" },
+  { src: "/img/5.jpeg", alt: "Poster 5" },
+  { src: "/img/6.jpeg", alt: "Poster 6" },
 ];
 
 export default function Poster({ posters = defaultPosters }) {
