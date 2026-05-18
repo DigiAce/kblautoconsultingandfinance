@@ -1,4 +1,4 @@
-import Poster from "../components/about/Poster.jsx";
+import Poster from "../components/about/Poster";
 
 const Posterpage = () => {
   return (
