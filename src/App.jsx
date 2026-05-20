@@ -4,6 +4,8 @@ import About from "./pages/About";
 import Posterpage from "./pages/Posterpage";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
+// import Loans from "./pages/ServicePage/Loans";
+// import ChitFunds from "./pages/ServicePage/ChitFunds";
 import MortgageLoans from "./pages/ServicePage/MortgageLoans";
 import PersonalLoans from "./pages/ServicePage/PersonalLoans";
 import VehicleFinance from "./pages/ServicePage/VehicleFinance";
@@ -16,9 +18,11 @@ import KulukkalChit from "./pages/ServicePage/KulukkalChit";
 function App() {
   return (
     <Router>
+      // Add this inside your App component's return statement (before the
+      Routes)
       <div className="fixed bottom-6 right-6 z-50">
-        
-          href="https://wa.link/27fkl0"
+        <a
+          href="https://wa.link/27fkl0" // Replace with your WhatsApp number
           target="_blank"
           rel="noopener noreferrer"
           className="bg-green-500 hover:bg-green-600 text-white rounded-full p-4 shadow-lg transition-all duration-300 flex items-center justify-center"
@@ -34,19 +38,45 @@ function App() {
           </svg>
         </a>
       </div>
-
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="servicespage/VehicleFinance" element={<VehicleFinance />} />
-          <Route path="servicespage/MortgageLoans" element={<MortgageLoans />} />
-          <Route path="servicespage/PersonalLoans" element={<PersonalLoans />} />
-          <Route path="servicespage/WeeklyFinance" element={<WeeklyFinance />} />
-          <Route path="servicespage/AuctionChit" element={<AuctionChitFund />} />
-          <Route path="servicespage/AutoCarRental" element={<AutoCarRental />} />
+
+          {/* Exact service routes */}
+          {/* <Route path="servicespage/Loans" element={<Loans />} /> */}
+          <Route
+            path="servicespage/VehicleFinance"
+            element={<VehicleFinance />}
+          />
+          <Route
+            path="servicespage/MortgageLoans"
+            element={<MortgageLoans />}
+          />
+          <Route
+            path="servicespage/PersonalLoans"
+            element={<PersonalLoans />}
+          />
+          <Route
+            path="servicespage/WeeklyFinance"
+            element={<WeeklyFinance />}
+          />
+          <Route
+            path="servicespage/AuctionChit"
+            element={<AuctionChitFund />}
+          />
+          <Route
+            path="servicespage/AutoCarRental"
+            element={<AutoCarRental />}
+          />
           <Route path="servicespage/DailyFinance" element={<DailyFinance />} />
+
+          {/* Kulukkal Chit */}
           <Route path="servicespage/KulukkalChit" element={<KulukkalChit />} />
+
+          {/* Chit Funds */}
+          {/* <Route path="servicespage/ChitFunds" element={<ChitFunds />} /> */}
+
           <Route path="posterpage" element={<Posterpage />} />
           <Route path="contact" element={<Contact />} />
         </Route>
