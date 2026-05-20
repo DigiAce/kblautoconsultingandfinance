@@ -39,7 +39,7 @@ export default function Poster({ posters = defaultPosters }) {
   return (
     <div className="min-h-screen bg-white text-slate-900">
       <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:px-8">
-        <div className="mb-8 text-center">
+        {/* <div className="mb-8 text-center">
           <p className="text-sm font-medium tracking-[0.25em] text-slate-500 uppercase">
             KBL Poster Collection
           </p>
@@ -49,7 +49,7 @@ export default function Poster({ posters = defaultPosters }) {
           <p className="mt-3 text-sm text-slate-500 sm:text-base">
             Click any poster to view it in full screen.
           </p>
-        </div>
+        </div> */}
 
         <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {posters.map((poster, index) => (
