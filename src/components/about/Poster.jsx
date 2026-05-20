@@ -51,7 +51,7 @@ export default function Poster({ posters = defaultPosters }) {
           </p>
         </div> */}
 
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3 mt=16">
           {posters.map((poster, index) => (
             <button
               key={`${poster.src}-${index}`}
