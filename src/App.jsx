@@ -4,8 +4,6 @@ import About from "./pages/About";
 import Posterpage from "./pages/Posterpage";
 import Contact from "./pages/Contact";
 import Layout from "./components/Layout";
-// import Loans from "./pages/ServicePage/Loans";
-// import ChitFunds from "./pages/ServicePage/ChitFunds";
 import MortgageLoans from "./pages/ServicePage/MortgageLoans";
 import PersonalLoans from "./pages/ServicePage/PersonalLoans";
 import VehicleFinance from "./pages/ServicePage/VehicleFinance";
@@ -18,7 +16,6 @@ import KulukkalChit from "./pages/ServicePage/KulukkalChit";
 function App() {
   return (
     <Router>
-      {/* WhatsApp floating button */}
       <div className="fixed bottom-6 right-6 z-50">
         
           href="https://wa.link/27fkl0"
