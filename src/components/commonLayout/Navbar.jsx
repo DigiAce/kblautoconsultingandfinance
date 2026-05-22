@@ -27,7 +27,6 @@ const Navbar = () => {
   }, []);
 
   const services = [
-    { name: "Auction Chit Fund", href: "/servicespage/AuctionChit" },
     { name: "Daily Finance", href: "/servicespage/DailyFinance" },
     { name: "Weekly Finance", href: "/servicespage/WeeklyFinance" },
     { name: "Personal Loans", href: "/servicespage/PersonalLoans" },
@@ -38,6 +37,7 @@ const Navbar = () => {
     { name: "Diwali Pandu", href: "/servicespage/diwalipandu" },
     { name: "Pongal Pandu", href: "/servicespage/pongalpandu" },
     { name: "Savings Scheme", href: "/servicespage/savingscheme" },  
+    { name: "Auction Chit Fund", href: "/servicespage/AuctionChit" },
   ];
 
   const navLinks = [
