@@ -244,6 +244,7 @@ const Footer = () => {
                   <p className="text-gray-300">
                     # 7/297, Pandiyan Nagar Nanmangalam Chennai - 600129
                   </p>
+                  <p className="text-gray-300"> #73, Velachery Main Rd, Rajakilpakkam, Chennai, Rajakilpakkam, Tamil Nadu 600072</p>
                 </div>
               </li>
             </ul>
