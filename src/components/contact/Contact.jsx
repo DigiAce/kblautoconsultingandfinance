@@ -114,6 +114,7 @@ const ContactForm = () => {
                     <p className="text-blue-200">
                       # 7/297, Pandiyan Nagar Nanmangalam Chennai - 600129
                     </p>
+                    <p className="text-blue-200"> #73, Velachery Main Rd, Rajakilpakkam, Chennai, Rajakilpakkam, Tamil Nadu 600072</p>
                   </div>
 
                   <div>
