@@ -62,106 +62,106 @@ const Footer = () => {
          {/* Services */}
 <div>
   <h3 className="text-lg font-semibold mb-6">Services</h3>
-  <ul className="grid grid-cols-2 gap-x-6 gap-y-3">
-    <li>
-      <Link
-        to="/servicespage/AuctionChit"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Auction Chit Fund
-      </Link>
-    </li>
+ <ul className="grid grid-cols-2 gap-x-6 gap-y-3">
+  <li>
+    <Link
+      to="/servicespage/DailyFinance"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Daily Finance
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/DailyFinance"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Daily Finance
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/WeeklyFinance"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Weekly Finance
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/WeeklyFinance"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Weekly Finance
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/PersonalLoans"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Personal Loans
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/PersonalLoans"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Personal Loans
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/MortgageLoans"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Mortgage Loans
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/MortgageLoans"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Mortgage Loans
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/VehicleFinance"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Vehicle Loans
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/VehicleFinance"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Vehicle Finance
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/AutoCarRental"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Auto Car Rental
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/AutoCarRental"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Auto Car Rental
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/DiwaliPandu"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Diwali Pandu
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/KulukkalChit"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Kulukkal Chit
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/PongalPandu"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Pongal Pandu
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/DiwaliPandu"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Diwali Pandu
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/KulukkalChit"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Kulukkal
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/PongalPandu"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Pongal Pandu
-      </Link>
-    </li>
+  <li>
+    <Link
+      to="/servicespage/SavingsScheme"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Savings Scheme
+    </Link>
+  </li>
 
-    <li>
-      <Link
-        to="/servicespage/SavingsScheme"
-        className="text-gray-300 hover:text-white transition"
-      >
-        Savings Scheme
-      </Link>
-    </li>
-  </ul>
+  <li>
+    <Link
+      to="/servicespage/AuctionChit"
+      className="text-gray-300 hover:text-white transition"
+    >
+      Auction Chit Fund
+    </Link>
+  </li>
+</ul>
 </div>
 
           {/* Contact info */}
