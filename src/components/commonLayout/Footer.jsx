@@ -62,7 +62,7 @@ const Footer = () => {
          {/* Services */}
 <div>
   <h3 className="text-lg font-semibold mb-6">Services</h3>
- <ul className="grid grid-cols-2 gap-x-6 gap-y-3">
+<ul className="space-y-3">
   <li>
     <Link
       to="/servicespage/DailyFinance"
