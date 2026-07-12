@@ -35,7 +35,7 @@ const Navbar = () => {
     { name: "Auto Car Rental", href: "/servicespage/AutoCarRental" },
     { name: "Kulukkal Chit", href: "/servicespage/KulukkalChit" },
     { name: "Diwali Pandu", href: "/servicespage/diwalipandu" },
-    { name: "Pongal Fund", href: "/servicespage/pongalFund" },
+    { name: "Pongal Fund", href: "/servicespage/PongalFund" },
     { name: "Savings Scheme", href: "/servicespage/savingscheme" },  
     { name: "Auction Chit Fund", href: "/servicespage/AuctionChit" },
   ];
