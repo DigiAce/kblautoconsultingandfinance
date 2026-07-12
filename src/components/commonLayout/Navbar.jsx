@@ -36,7 +36,7 @@ const Navbar = () => {
     { name: "Kulukkal Chit", href: "/servicespage/KulukkalChit" },
     { name: "Diwali Fund", href: "/servicespage/DiwaliFund" },
     { name: "Pongal Fund", href: "/servicespage/PongalFund" },
-    { name: "Savings Scheme", href: "/servicespage/savingscheme" },  
+    { name: "Savings Schemes", href: "/servicespage/SavingsSchemes" },  
     { name: "Auction Chit Fund", href: "/servicespage/AuctionChit" },
   ];
 
