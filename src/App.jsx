@@ -13,6 +13,7 @@ import AuctionChitFund from "./pages/ServicePage/AuctionChit";
 import AutoCarRental from "./pages/ServicePage/AutoCarRental";
 import DailyFinance from "./pages/ServicePage/DailyFinance";
 import KulukkalChit from "./pages/ServicePage/KulukkalChit";
+import PongalFund from "./pages/ServicePage/PongalFund";
 
 function App() {
   return (
@@ -51,6 +52,7 @@ function App() {
           <Route path="servicespage/AutoCarRental" element={<AutoCarRental />} />
           <Route path="servicespage/DailyFinance" element={<DailyFinance />} />
           <Route path="servicespage/KulukkalChit" element={<KulukkalChit />} />
+          <Route path="servicespage/PongalFund" element={<PongalFund />} />
         </Route>
       </Routes>
     </Router>
