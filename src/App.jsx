@@ -15,6 +15,7 @@ import DailyFinance from "./pages/ServicePage/DailyFinance";
 import KulukkalChit from "./pages/ServicePage/KulukkalChit";
 import PongalFund from "./pages/ServicePage/PongalFund";
 import DiwaliFund from "./pages/ServicePage/DiwaliFund";
+import SavingsSchemes from "./pages/ServicePage/SavingsSchemes";
 
 function App() {
   return (
@@ -55,6 +56,7 @@ function App() {
           <Route path="servicespage/KulukkalChit" element={<KulukkalChit />} />
           <Route path="servicespage/PongalFund" element={<PongalFund />} />
           <Route path="servicespage/DiwaliFund" element={<DiwaliFund />} />
+          <Route path="servicespage/SavingsSchemes" element={<SavingsSchemes />} />
         </Route>
       </Routes>
     </Router>
