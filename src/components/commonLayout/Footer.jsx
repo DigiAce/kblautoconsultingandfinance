@@ -211,7 +211,7 @@ const Footer = () => {
                 </div>
                 <div className="ml-3">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+918778382253"
                     className="text-gray-300 hover:text-white transition"
                   >
                     +91 87783 82253
