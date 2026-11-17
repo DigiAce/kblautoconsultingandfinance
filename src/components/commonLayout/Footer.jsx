@@ -1,173 +1,136 @@
-import React, { useEffect } from "react";
+
+import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  useEffect(() => {
-    // Update copyright year
-    document.getElementById("year").textContent = new Date().getFullYear();
-  }, []);
-
   return (
     <footer className="bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 py-20 lg:py-32 text-white">
-      {/* Main footer content */}
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
-        {/* Grid layout */}
+
+        {/* Main Footer Content */}
         <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-12">
-          {/* Logo/Name section */}
+
+          {/* Logo / Name Section */}
           <div>
             <div className="flex items-center space-x-2 mb-6">
               <img
                 src="/img/logo-main.png"
-                alt=""
+                alt="KBL Consulting & Finance"
                 className="w-28 h-20 object-contain"
               />
             </div>
+
             <p className="text-gray-300 mb-6">
               Your trusted partner for financial solutions and consulting
               services.
             </p>
           </div>
 
-          {/* Quick links */}
+          {/* Quick Links */}
           <div>
             <h3 className="text-lg font-semibold mb-6">Quick Links</h3>
+
             <ul className="space-y-3">
               <li>
-                <Link
-                  to="/"
-                  className="text-gray-300 hover:text-white transition"
-                >
+                <Link to="/" className="text-gray-300 hover:text-white transition">
                   Home
                 </Link>
               </li>
+
               <li>
-                <Link
-                  to="/about"
-                  className="text-gray-300 hover:text-white transition"
-                >
+                <Link to="/about" className="text-gray-300 hover:text-white transition">
                   About
                 </Link>
               </li>
+
               <li>
-                <Link
-                  to="/contact"
-                  className="text-gray-300 hover:text-white transition"
-                >
+                <Link to="/contact" className="text-gray-300 hover:text-white transition">
                   Contact
                 </Link>
               </li>
             </ul>
           </div>
 
-         {/* Services */}
-<div>
-  <h3 className="text-lg font-semibold mb-6">Services</h3>
-<ul className="space-y-3">
-  <li>
-    <Link
-      to="/servicespage/DailyFinance"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Daily Finance
-    </Link>
-  </li>
+          {/* Services */}
+          <div>
+            <h3 className="text-lg font-semibold mb-6">Services</h3>
 
-  <li>
-    <Link
-      to="/servicespage/WeeklyFinance"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Weekly Finance
-    </Link>
-  </li>
+            <ul className="space-y-3">
+              <li>
+                <Link to="/servicespage/DailyFinance" className="text-gray-300 hover:text-white transition">
+                  Daily Finance
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/PersonalLoans"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Personal Loans
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/WeeklyFinance" className="text-gray-300 hover:text-white transition">
+                  Weekly Finance
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/MortgageLoans"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Mortgage Loans
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/PersonalLoans" className="text-gray-300 hover:text-white transition">
+                  Personal Loans
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/VehicleFinance"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Vehicle Loans
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/MortgageLoans" className="text-gray-300 hover:text-white transition">
+                  Mortgage Loans
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/AutoCarRental"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Auto Car Rental
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/VehicleFinance" className="text-gray-300 hover:text-white transition">
+                  Vehicle Loans
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/DiwaliPandu"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Diwali Pandu
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/AutoCarRental" className="text-gray-300 hover:text-white transition">
+                  Auto Car Rental
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/PongalPandu"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Pongal Pandu
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/DiwaliPandu" className="text-gray-300 hover:text-white transition">
+                  Diwali Pandu
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/KulukkalChit"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Kulukkal
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/PongalPandu" className="text-gray-300 hover:text-white transition">
+                  Pongal Pandu
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/SavingsScheme"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Savings Scheme
-    </Link>
-  </li>
+              <li>
+                <Link to="/servicespage/KulukkalChit" className="text-gray-300 hover:text-white transition">
+                  Kulukkal
+                </Link>
+              </li>
 
-  <li>
-    <Link
-      to="/servicespage/AuctionChit"
-      className="text-gray-300 hover:text-white transition"
-    >
-      Auction Chit Fund
-    </Link>
-  </li>
-</ul>
-</div>
+              <li>
+                <Link to="/servicespage/SavingsScheme" className="text-gray-300 hover:text-white transition">
+                  Savings Scheme
+                </Link>
+              </li>
 
-          {/* Contact info */}
+              <li>
+                <Link to="/servicespage/AuctionChit" className="text-gray-300 hover:text-white transition">
+                  Auction Chit Fund
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Contact Information */}
           <div>
             <h3 className="text-lg font-semibold mb-6">Contact Us</h3>
+
             <ul className="space-y-4">
+
+              {/* Email */}
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <svg
@@ -181,18 +144,21 @@ const Footer = () => {
                       strokeLinejoin="round"
                       strokeWidth="2"
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-                    ></path>
+                    />
                   </svg>
                 </div>
+
                 <div className="ml-3">
                   <a
                     href="mailto:kblautoconsulting2702@gmail.com"
-                    className="text-gray-300 hover:text-white transition"
+                    className="text-gray-300 hover:text-white transition break-all"
                   >
                     kblautoconsulting2702@gmail.com
                   </a>
                 </div>
               </li>
+
+              {/* Phone */}
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <svg
@@ -205,10 +171,11 @@ const Footer = () => {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                       strokeWidth="2"
-                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                    ></path>
+                      d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a2 2 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a2 2 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                    />
                   </svg>
                 </div>
+
                 <div className="ml-3">
                   <a
                     href="tel:+918778382253"
@@ -218,6 +185,8 @@ const Footer = () => {
                   </a>
                 </div>
               </li>
+
+              {/* Office Addresses */}
               <li className="flex items-start">
                 <div className="flex-shrink-0 mt-1">
                   <svg
@@ -240,35 +209,62 @@ const Footer = () => {
                     />
                   </svg>
                 </div>
-                <div className="ml-3">
-                  <p className="text-gray-300">
-                    # 7/297, Pandiyan Nagar Nanmangalam Chennai - 600129
-                  </p>
-                  <p className="text-gray-300"> #73, Velachery Main Rd, Rajakilpakkam, Chennai, Rajakilpakkam, Tamil Nadu 600072</p>
+
+                <div className="ml-3 space-y-4">
+
+                  {/* Head Office */}
+                  <div>
+                    <h4 className="text-white font-semibold mb-1">
+                      Head Office
+                    </h4>
+
+                    <p className="text-gray-300">
+                      Plot No. 23, V.G.P Pon Nagar, 2nd Street,
+                      Sembakkam, Chennai - 600 073
+                    </p>
+                  </div>
+
+                  {/* Branch Office */}
+                  <div>
+                    <h4 className="text-white font-semibold mb-1">
+                      Branch Office
+                    </h4>
+
+                    <p className="text-gray-300">
+                      54, G.G Baba Complex, First Floor (F6),
+                      Madambakkam Main Road, Chennai - 600 126
+                    </p>
+                  </div>
+
                 </div>
               </li>
+
             </ul>
           </div>
         </div>
 
-        {/* Bottom section */}
+        {/* Bottom Section */}
         <div className="mt-16 pt-8 border-t border-slate-700 flex flex-col md:flex-row justify-between items-center">
+
           <p className="text-gray-400 text-sm mb-4 md:mb-0">
-            &copy; <span id="year"></span>
+            &copy; {new Date().getFullYear()}
+
             <b className="text-blue-400 font-bold">
-              {" "}
-              KBL Consulting & Finance{" "}
+              {" "}KBL Consulting & Finance{" "}
             </b>
+
             . All rights reserved.
+
             <span className="block md:inline">
-              {" "}
-              Powered by
+              {" "}Powered by
+
               <a
                 href="https://www.digiace.in/"
                 className="text-blue-400 font-bold"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                {" "}
-                DigiAce
+                {" "}DigiAce
               </a>
             </span>
           </p>
@@ -280,6 +276,7 @@ const Footer = () => {
             >
               Privacy Policy
             </Link>
+
             <Link
               to="/terms"
               className="text-gray-400 hover:text-white transition"
@@ -287,6 +284,7 @@ const Footer = () => {
               Terms of Service
             </Link>
           </div>
+
         </div>
       </div>
     </footer>
