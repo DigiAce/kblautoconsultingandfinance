@@ -210,7 +210,7 @@ const Footer = () => {
                   </svg>
                 </div>
 
-                <div className="ml-3 space-y-4">
+                <div className="ml-3 space-y-5">
 
                   {/* Head Office */}
                   <div>
@@ -219,19 +219,43 @@ const Footer = () => {
                     </h4>
 
                     <p className="text-gray-300">
-                      Plot No. 23, V.G.P Pon Nagar, 2nd Street,
+                      Plot No. 23, V.G.P Pon Nagar 2nd Street,
                       Sembakkam, Chennai - 600 073
                     </p>
                   </div>
 
-                  {/* Branch Office */}
+                  {/* Branch 1 */}
                   <div>
                     <h4 className="text-white font-semibold mb-1">
-                      Branch Office
+                      Branch 1
                     </h4>
 
                     <p className="text-gray-300">
-                      54, G.G Baba Complex, First Floor (F6),
+                      No. 7/297, Pandian Nagar, Nanmangalam,
+                      Chennai - 600129
+                    </p>
+                  </div>
+
+                  {/* Branch 2 */}
+                  <div>
+                    <h4 className="text-white font-semibold mb-1">
+                      Branch 2
+                    </h4>
+
+                    <p className="text-gray-300">
+                      No. 261, Velachery Main Road, Rajakilpakkam,
+                      Chennai - 600073
+                    </p>
+                  </div>
+
+                  {/* Branch 3 */}
+                  <div>
+                    <h4 className="text-white font-semibold mb-1">
+                      Branch 3
+                    </h4>
+
+                    <p className="text-gray-300">
+                      No. 54, G.G Baba Complex, First Floor (F6),
                       Madambakkam Main Road, Chennai - 600 126
                     </p>
                   </div>
