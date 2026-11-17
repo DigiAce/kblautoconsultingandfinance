@@ -119,24 +119,50 @@ const ContactForm = () => {
                 {/* Office Addresses */}
                 <div className="space-y-6">
 
+                  {/* Head Office */}
                   <div>
                     <h3 className="text-lg font-semibold mb-2">
                       Head Office
                     </h3>
 
                     <p className="text-blue-200">
-                      Plot No. 23, V.G.P Pon Nagar, 2nd Street,
+                      Plot No. 23, V.G.P Pon Nagar 2nd Street,
                       Sembakkam, Chennai - 600 073
                     </p>
                   </div>
 
+                  {/* Branch 1 */}
                   <div>
                     <h3 className="text-lg font-semibold mb-2">
-                      Branch Office
+                      Branch 1
                     </h3>
 
                     <p className="text-blue-200">
-                      54, G.G Baba Complex, First Floor (F6),
+                      No. 7/297, Pandian Nagar, Nanmangalam,
+                      Chennai - 600129
+                    </p>
+                  </div>
+
+                  {/* Branch 2 */}
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">
+                      Branch 2
+                    </h3>
+
+                    <p className="text-blue-200">
+                      No. 261, Velachery Main Road,
+                      Rajakilpakkam, Chennai - 600073
+                    </p>
+                  </div>
+
+                  {/* Branch 3 */}
+                  <div>
+                    <h3 className="text-lg font-semibold mb-2">
+                      Branch 3
+                    </h3>
+
+                    <p className="text-blue-200">
+                      No. 54, G.G Baba Complex, First Floor (F6),
                       Madambakkam Main Road, Chennai - 600 126
                     </p>
                   </div>
